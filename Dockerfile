@@ -2,7 +2,7 @@ FROM node:16
 
 WORKDIR /usr/src/app
 
-COPY package.json index.js ./
+COPY . ./
 
 # Needless, can remove it
 RUN npm set strict-ssl false
