@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 COPY package.json index.js ./
 
 # Needless, can remove it
-RUN npm set strict-ssl false / 
+RUN npm set strict-ssl false
 
 RUN npm install
 
